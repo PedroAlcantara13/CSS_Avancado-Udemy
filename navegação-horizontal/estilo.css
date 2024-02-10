@@ -1,0 +1,50 @@
+/*
+ul {
+    border: 1px solid red;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    padding: 10px 20px;
+    background: url(img/seta.png) no-repeat left center;
+}
+*/
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 720px;
+    background: #159cb0 url(img/fundo-horizontal.png) repeat-x;
+    float: left;
+}
+
+ul li{
+    float: left;
+}
+
+ul a {
+    display: block;
+    padding: 0 2em;
+    color: white;
+    text-decoration: none;
+    line-height: 2em;
+    background: url(img/divisor.png) repeat-y left top;
+}
+
+a:hover{
+    color: black;
+    background: #44cade;
+}
+
+#home .home a, 
+#sobre .sobre a,
+#servicos .serv a,
+#noticias .not a,
+#contatos .cont a {
+    color: black;
+    background: #44cade;
+}
+
